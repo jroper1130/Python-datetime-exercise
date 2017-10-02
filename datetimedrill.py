@@ -20,12 +20,12 @@ london = datetime.datetime.now().hour+8
 newyork = datetime.datetime.now().hour+3
 
 
-if 21 >= london and london > 9:
+if 21 > london and london > 9:
     print('open')
 else:
     print('closed')
 
-if 21 >= newyork and newyork > 9:
+if 21 > newyork and newyork > 9:
     print('open')
 else:
     print('closed')
